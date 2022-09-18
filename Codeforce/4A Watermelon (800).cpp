@@ -1,11 +1,11 @@
 #include <iostream>
 
 int main() {
-	int slice;
+	int w;
 
-	std::cin >> slice;
+	std::cin >> w;
 
-	if(slice % 2 == 0){
+	if(w % 2 == 0){
 		std::cout << "YES" << std::endl;
 	}
 	else{
