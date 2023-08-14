@@ -1,6 +1,6 @@
 /*
    DESC : Star Pattern
-		 5					Star Count
+		 5				Star Count
 		  *				--> 1
 		* * *				--> 3
 	      * * * * *				--> 5
