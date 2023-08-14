@@ -1,10 +1,10 @@
 /*
    DESC : Palindromic Pattern
 		 5
-		  1
-		2 1 2
-	  3	2 1 2 3
-	4 3 2 1 2 3 4
+	  1
+	2 1 2
+      3 2 1 2 3
+    4 3 2 1 2 3 4
   5 4 3 2 1 2 3 4 5
 
    SOLUTION BY : MRUNAL NIRAJKUMAR SHAH
