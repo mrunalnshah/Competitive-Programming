@@ -1,9 +1,9 @@
 /*
 	DESC : Half Pyramid 180 Degree Rotated
 		  5
-			 *
-		   * *
-		 * * *
+	         *
+	       * *
+	     * * *
 	   * * * *
 	 * * * * *
 	SOLUTION BY : MRUNAL NIRAJKUMAR SHAH
