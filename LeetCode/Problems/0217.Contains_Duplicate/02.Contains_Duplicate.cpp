@@ -8,14 +8,15 @@
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
-        unordered_map<int,int> hash_map;
-
+        unordered_map<int,int> map;
         for(int i = 0; i < nums.size(); i++) {
-            if(hash_map.find(nums[i]) != hash_map.end() ) {
-                return true;
-            }
-            hash_map[nums[i]] = i;
+            map[nums[i]]++;
         }
-        return false;
+        for(pair<int,int> x : map) {
+            if(x.second != 1) {
+                return false;
+            }
+        }
+        return true;
     }
 };

@@ -5,8 +5,6 @@
 	SOLUTION BY : MRUNAL NIRAJKUMAR SHAH
 */
 
-// https://leetcode.com/problems/two-sum/solutions/3790366/c-solution-o-n-2-memory-efficient-and-o-n-time-efficient/
-
 
 class Solution {
 public:

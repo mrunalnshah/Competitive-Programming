@@ -6,9 +6,6 @@
 */
 
 
-// https://leetcode.com/problems/valid-anagram/solutions/3966909/c-solution-o-1-memory-efficient-and-o-n-time-efficient/
-
-
 class Solution {
 public:
     bool isAnagram(string s, string t) {
@@ -23,7 +20,7 @@ public:
                 map[t[i]]--;
             }
 
-            for (auto x : map) {
+            for (pair<char, int> x : map) {
                 if (x.second) {
                     return false;
                 }
