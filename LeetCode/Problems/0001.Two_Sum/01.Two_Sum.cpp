@@ -19,3 +19,12 @@ public:
         return {};
     }
 };
+
+/*
+	for i = 0 to size of nums array
+		for j = i + 1 to size of nums array
+			if nums[i] + nums[j] == target
+				return {i,j}
+
+	return {}
+*/

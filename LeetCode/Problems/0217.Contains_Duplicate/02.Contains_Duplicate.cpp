@@ -20,3 +20,15 @@ public:
         return true;
     }
 };
+
+/*
+[1,2,3,1]
+
+KEY		Amount Present
+1		2
+2		1
+3		1
+
+1 is present 2 times therefore its duplicate.
+
+*/

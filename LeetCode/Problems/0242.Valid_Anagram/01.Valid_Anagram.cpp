@@ -30,3 +30,26 @@ public:
         }
     }
 };
+
+/*
+s = "anagram", t = "nagaram"
+
+a++		n--
+n++		a--
+a++		g--
+g++		a--
+r++		r--
+a++		a--
+m++		m--
+
+
+AT LAST all values in hashmap will be 0 therefore its ANAGRAM.
+
+KEY 	AMOUNT PRESENT
+a		0
+n		0
+g		0
+r		0
+m		0
+
+*/

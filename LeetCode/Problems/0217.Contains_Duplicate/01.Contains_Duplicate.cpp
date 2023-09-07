@@ -19,3 +19,15 @@ public:
         return false;
     }
 };
+
+/*
+
+[1,2,3,1]
+
+KEY		INT
+1		1
+2		1
+3		1
+1 is present so duplicate exist
+
+*/
