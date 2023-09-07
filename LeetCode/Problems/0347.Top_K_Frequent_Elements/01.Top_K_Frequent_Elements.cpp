@@ -40,7 +40,7 @@ public:
 /*
 [4,1,-1,2,-1,2,3]
 
-KEY 	AMOUNT
+KEY 		AMOUNT
 4		1
 1		1
 -1		2
