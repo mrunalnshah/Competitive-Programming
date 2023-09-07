@@ -24,7 +24,7 @@ public:
 /*
 INPUT 	: -1		1		0		-3			3
 
-RESULT 	: 0			0		9		0			0
+RESULT 	: 0		0		9		0			0
 
 //SAME AS 02 but More like a Space and Time Efficient both. while 02. is time efficient. 01. is better but not upto the question
 
