@@ -1,3 +1,10 @@
+/*
+    Author : Mrunal Nirajkumar Shah
+    Date   : 7th of May,2024
+
+    LeetCode : https://leetcode.com/problems/remove-element/
+*/
+
 #include <iostream>
 #include <vector>
 
