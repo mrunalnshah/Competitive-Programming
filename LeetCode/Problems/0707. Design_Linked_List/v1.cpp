@@ -145,7 +145,7 @@ class MyLinkedList {
 
         totalNodes++;
       } else {
-        // Nothing For Now
+        // NOTHING FOR NOW.
       }
     } else {
       // NOTHING FOR NOW.
