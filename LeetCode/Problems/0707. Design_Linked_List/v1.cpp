@@ -101,15 +101,13 @@ class MyLinkedList {
         head = newNode;
         tail = newNode;
         totalNodes++;
-      }
-      if (index == 0 && totalNodes > -1) {
+      } else if (index == 0 && totalNodes > -1) {
         head->prev = newNode;
         newNode->next = head;
         head = newNode;
 
         totalNodes++;
-      }
-      if (index > 0 && index <= totalNodes) {
+      } else if (index > 0 && index <= totalNodes) {
         DoublyLinkedList *travel;
         if (totalNodes / 2 >= index - 1) {
           travel = head;
@@ -140,13 +138,14 @@ class MyLinkedList {
             travel = travel->prev;
           }
         }
-      }
-      if (index > 0 && index == totalNodes + 1) {
+      } else if (index > 0 && index == totalNodes + 1) {
         tail->next = newNode;
         newNode->prev = tail;
         tail = newNode;
 
         totalNodes++;
+      } else {
+        // Nothing For Now
       }
     } else {
       // NOTHING FOR NOW.
