@@ -46,19 +46,16 @@ class Queue {
 
   int pop() {
     int data;
-    if (totalNodes != -1) {
-      data = head->data;
-      if (totalNodes == 0) {
-        head = nullptr;
-        tail = nullptr;
-        totalNodes = -1;
-      } else {
-        head = head->next;
-        totalNodes--;
-      }
-      return data;
+    data = head->data;
+    if (totalNodes == 0) {
+      head = nullptr;
+      tail = nullptr;
+      totalNodes = -1;
+    } else {
+      head = head->next;
+      totalNodes--;
     }
-    return -1;
+    return data;
   }
 
   int size() {
