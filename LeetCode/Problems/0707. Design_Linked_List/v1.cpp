@@ -30,8 +30,6 @@ class MyLinkedList {
 
   int get(int index) {
     if (index < 0 || index > totalNodes || totalNodes == -1) {
-      cout << "index : " << index << endl;
-      cout << "total nodes : " << totalNodes << endl;
       return -1;
     } else {
       DoublyLinkedList *travel;
