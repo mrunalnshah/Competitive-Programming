@@ -3,7 +3,7 @@
     Date   : 20th of May,2024
 
     Time Complexity : O(n^2)
-    LeetCode : https://leetcode.com/problems/concatenation-of-array/
+    LeetCode : https://leetcode.com/problems/sort-an-array/
 */
 
 #include <iostream>
