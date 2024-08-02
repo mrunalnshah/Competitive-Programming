@@ -41,4 +41,6 @@ int main() {
   vector nums = {1, 1, 1, 1, 2, 3, 4, 4, 4, 5, 8, 9, 33, 33, 33, 55};
 
   cout << mySolution.removeDuplicates(nums) << endl;
+  
+  return 0;
 }
