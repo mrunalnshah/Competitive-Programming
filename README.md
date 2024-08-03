@@ -1,6 +1,6 @@
 # Competitive-zone
 ---
-## [Problems Sheets](https://docs.google.com/spreadsheets/d/10EmWLMx8Qx1onDtqhYAgraV2Vv462XN3lgajgXCVGH0/edit?usp=sharing)
+## [Problems Sheet](https://docs.google.com/spreadsheets/d/10EmWLMx8Qx1onDtqhYAgraV2Vv462XN3lgajgXCVGH0/edit?usp=sharing)
 
 The above link is of my Google Sheet where i store the curated problem list.
 
