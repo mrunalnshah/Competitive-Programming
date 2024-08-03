@@ -8,7 +8,7 @@
   vector created}
 
   Author : Mrunal Nirajkumar Shah
-  Date   : 2st of August, 2024
+  Date   : 2nd of August, 2024
 */
 
 #include <iostream>
